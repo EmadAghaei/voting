@@ -17,7 +17,7 @@ public class MainController {
 		ModelAndView model = new ModelAndView();
 		model.addObject("title", "Voting page");
 
-		model.setViewName("admin");
+		model.setViewName("user");
 
 		return model;
 
