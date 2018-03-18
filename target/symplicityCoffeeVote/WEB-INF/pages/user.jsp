@@ -29,33 +29,15 @@
 	<h2>User Information</h2>
 	<form:form method = "POST" action = "/addUser">
 		<table>
-			<tr>
-				<td><form:label path = "username">User Name</form:label></td>
-				<td><form:input path = "username" /></td>
-			</tr>
-			<tr>
-				<td><form:label path = "password">Age</form:label></td>
-				<td><form:password path = "password" /></td>
-			</tr>
-			<tr>
-				<td><form:label path = "address">Address</form:label></td>
-				<td><form:textarea path = "address" rows = "5" cols = "30" /></td>
-			</tr>
-			<tr>
-				<td><form:label path = "receivePaper">Subscribe Newsletter</form:label></td>
-				<td><form:checkbox path = "receivePaper" /></td>
-			</tr>
-			<tr>
-				<td><form:label path = "favoriteFrameworks">Favorite Web Frameworks</form:label></td>
-				<td><form:checkboxes items = "${webFrameworkList}" path = "favoriteFrameworks" /></td>
-			</tr>
-			<tr>
-				<td><form:label path = "gender">Gender</form:label></td>
+		<tr>
+				<td><form:label path = "fruit">Gender</form:label></td>
 				<td>
-					<form:radiobutton path = "gender" value = "M" label = "Male" />
-					<form:radiobutton path = "gender" value = "F" label = "Female" />
+					<form:radiobutton path = "fruit" value = "Apple" label = "Apple" />
+					<form:radiobutton path = "fruit" value = "Orange" label = "Orange" />
+					<form:radiobutton path = "fruit" value = "Banana" label = "Banana" />
+					<form:radiobutton path = "fruit" value = "Pineapple" label = "Pineapple" />
 				</td>
-			</tr>
+		</tr>
 			<tr>
 				<td colspan = "2">
 					<input type = "submit" value = "Submit"/>

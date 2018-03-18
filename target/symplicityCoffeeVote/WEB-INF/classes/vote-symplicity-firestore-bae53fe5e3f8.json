@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vote-symplicity-firestore",
+  "private_key_id": "bae53fe5e3f8c4e94278dd14f9b07fcd63f99ee0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCiH95f/lh8R4Gs\nRYWDKqb1luqjrkPbHqv2RDLdzz1nZsskHwx5JJslC4sTvLOqpiTgjpmnsBVnUVRW\n494FdeG7TnqXOpVWjvjsFlgj24itTV5jVhWR6qeF0mvLLdm6vMTd7GP+OgF+WPHv\nHmoAh9quvRPGGxB0695/vDfjQRSMDrS2B/cEndyNAX1ycByMig1H1RCD8NK12iwG\n3BP2V16CdEScMmR7l4tfhBg0LyLwZ7Byl07g9GZyMO2JLuoZyuJ8XosXFVRD5hAa\ngbu75eGsiYIJsdB4DnfaGQ8BPQ4M7NP3h/wOJGxtkEw44XMtXeOr5TmZ+jjARJWM\nMUZPECLXAgMBAAECggEACAmOa7HfTyH4YsL7kHof1tMJhN3RzV4i5k2RO//XKnYl\nIgBMDQFsk5ST64GSYqZj86H+KhsHpJyaksgvLJQggbmtSCwGVUk3O/ULn5N1ninU\nwRX2ccpxTagV4fe+8IwFMn9SobrcchgUvmcCmE4j4D/NaCfVVAaRfEGnf6OtUhgg\nRln5Gu32AEUyFHQTbQfkS/QKrxIUpm/xnDtwp2KRWgGX29yfVNWHScH7pAG1HHGz\nBNc5/fCxEvz2LN3FzETDVDMdjlJ3OKI0X04x6f35CMMT5oQgBTl1vX8vnw3SWCmU\nVEWoXJpRPOMyUs+3znfcBq5+yJAw/wX/wE7SCgeV+QKBgQDdY5iPt3OwiZZEFE7V\nuvNNZZB0HF4RciSvviNtKYygy5NtQlT4NtUcLI0l8F02roTJtvUmuP6i4iw7beBR\nGhkjQseRZC/NyxFngkCpdjewqhTvsbpiePG69Aer0V6400Z4HIpNaMmveu/xGo/o\n580skYHYpcvwwlOjCjJCQQKVfQKBgQC7eGTjVHzAwdjghCzKPOFrgh0BpTVT7+eY\nKcBh3pTyJUW1HmqvNQMJD2hMe/jqlzwPHIeyCBLWa2BmAXeEloolQ/SZ7iXHJ1Mf\nI4Qvpb0U0opENmYDcLHRY28kcs7bpesHKgWXJRqc3NhciTztJJO/zngQlHLdwuze\nJ6dewgv54wKBgQCfsD9TKthf9l5VLPDQadEleqT/m5aert6XhWa4TsgJE857eOUh\nRSvi7p/BRed2kdtmRHoAPGAvzURqeY7b8R9At+KLlOCGaHtdVi6eDY+N9qCzZFc0\nwFhcqbj+zj6swniKGswHmhYgZWS9XJOBQ/JSu4IVa0H3n7QEXk5yS8I5YQKBgQCc\nWcK6ngIVuRYp2dKJMNFIGpIahzC8un7KtzeN6FcMxO0oKyAK1AmeCs2PzG1DKbKb\nX84EOxuK3K7fJCYL3ImGnvBnWOkE+dUnSTW7j1zs+tL6JOxbvidvXKCbI21GX1Bu\n/yr+baGOZdnFA2he13yqIYadPVG3hhSLC0NZkjjuxQKBgQCqg9R/mQtkv0w00Bqf\nY7XI1bHKZUVreIPUlx1A9tOk14I9ZjF5CqOfCl91XJF0nGy88t/NdxHIyhOSmjwN\nAWzR+cAPWulD99qC+Ag9tAW8ZJn+PYcTiP2O3WVigul3STiiu8BBP5V/XEp9l9VX\nvCkrcnJBdVchcozRjMwLv6gD7A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "vote-symplicity-firestore@appspot.gserviceaccount.com",
+  "client_id": "113188287557712858610",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vote-symplicity-firestore%40appspot.gserviceaccount.com"
+}

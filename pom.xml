@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.symplicity</groupId>
@@ -77,6 +76,21 @@
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
 		</dependency>
+
+		<!--Google API-->
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-firebaserules</artifactId>
+			<version>v1-rev266-1.23.0</version>
+		</dependency>
+        <!--FireBase DB-->
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>5.9.0</version>
+        </dependency>
+
+
 
 	</dependencies>
 
