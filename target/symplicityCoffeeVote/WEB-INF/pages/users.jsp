@@ -1,4 +1,5 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head>
     <title>Spring MVC Form Handling</title>
@@ -7,39 +8,24 @@
 
 <h2>Submitted User Information</h2>
 <table>
-    <%--<tr>--%>
-        <%--<td>Username</td>--%>
-        <%--<td>${username}</td>--%>
-    <%--</tr>--%>
-
-    <%--<tr>--%>
-        <%--<td>Password</td>--%>
-        <%--<td>${password}</td>--%>
-    <%--</tr>--%>
-
-    <%--<tr>--%>
-        <%--<td>Address</td>--%>
-        <%--<td>${address}</td>--%>
-    <%--</tr>--%>
-
-    <%--<tr>--%>
-        <%--<td>Subscribed to Newsletter</td>--%>
-        <%--<td>${receivePaper}</td>--%>
-    <%--</tr>--%>
-
-    <%--<tr>--%>
-        <%--<td>Favorite Web Frameworks</td>--%>
-        <%--<td> <% String[] favoriteFrameworks = (String[])request.getAttribute("favoriteFrameworks");--%>
-            <%--for(String framework: favoriteFrameworks) {--%>
-                <%--System.out.println(framework);--%>
-            <%--}--%>
-        <%--%></td>--%>
-    <%--</tr>--%>
 
     <tr>
         <td>Fruit</td>
         <td>${fruit}</td>
     </tr>
+    <tr>
+        <c:if test="${not empty votes}">
+
+            <ul>
+                <c:forEach var="listValue" items="${votes}">
+                    <li>${listValue.fruit}</li>
+                    <li>${listValue.userName}</li>
+                </c:forEach>
+            </ul>
+
+        </c:if>
+    </tr>
 </table>
+<input type="button" value="Back" onclick="javascript:history.back()"/>
 </body>
 </html>

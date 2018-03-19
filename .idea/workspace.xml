@@ -7,40 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="565f7119-e34b-425c-a4a0-f8c54896eab6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/symplicity/base/FireBaseUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/vote-symplicity-firestore-bae53fe5e3f8.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/symplicity_vote_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/symplicity_vote_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/classes/com/symplicity/config/AppConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/classes/com/symplicity/config/SecurityConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/classes/com/symplicity/config/core/SpringMvcInitializer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/classes/com/symplicity/config/core/SpringSecurityInitializer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/classes/com/symplicity/web/controller/MainController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-aop-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-beans-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-context-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-core-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-expression-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-security-config-4.2.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-security-core-4.2.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-security-web-4.2.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-web-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/lib/spring-webmvc-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/pages/login.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/pages/user.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/symplicity_vote_war_exploded/WEB-INF/pages/users.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/symplicity/config/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/symplicity/config/AppConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/symplicity/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/symplicity/config/SecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/symplicity/base/FireBaseUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/symplicity/base/FireBaseUtil.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/symplicity-vote.iml" afterPath="$PROJECT_DIR$/symplicity-vote.iml" />
-      <change beforePath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/pages/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/symplicity/web/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/symplicity/web/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/symplicity/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/symplicity/config/SecurityConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/classes/com/symplicity/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/classes/com/symplicity/config/SecurityConfig.class" />
       <change beforePath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/pages/user.jsp" afterPath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/pages/user.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/pages/users.jsp" afterPath="$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/pages/users.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +30,8 @@
       <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -65,7 +40,7 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="461">
               <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
               <folding />
             </state>
@@ -75,18 +50,22 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="412">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,21 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.3.RELEASE/spring-web-4.2.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <file leaf-file-name="users.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.3.RELEASE/spring-webmvc-4.2.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+            <state relative-caret-position="-1">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -117,31 +96,41 @@
       <file leaf-file-name="FireBaseUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/base/FireBaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="412">
+              <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1997#2003#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vote-symplicity-firestore-bae53fe5e3f8.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/classes/vote-symplicity-firestore-bae53fe5e3f8.json">
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.3.RELEASE/spring-web-4.2.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleCredentials.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/auth/google-auth-library-oauth2-http/0.8.0/google-auth-library-oauth2-http-0.8.0.jar!/com/google/auth/oauth2/GoogleCredentials.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="281">
+              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+              <folding>
+                <marker date="1520972043665" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1520972043665" expanded="false" signature="162:720" ph="..." />
+                <marker date="1520972043665" expanded="false" signature="1114:1125" ph=" { " />
+                <marker date="1520972043665" expanded="false" signature="1146:1152" ph=" }" />
+                <marker date="1520972043665" expanded="false" signature="1215:1226" ph=" { " />
+                <marker date="1520972043665" expanded="false" signature="1246:1252" ph=" }" />
+                <marker date="1520972043665" expanded="true" signature="1374:1430" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="1509:1568" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="1678:1737" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="1831:1902" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="2042:2748" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="2898:4250" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="4332:4558" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="4621:4957" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="5053:5511" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="5576:6653" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="6738:7340" ph="{...}" />
+                <marker date="1520972043665" expanded="true" signature="7426:8000" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -182,8 +171,8 @@
       <find>proj</find>
       <find>command</find>
       <find>modal</find>
-      <find>SpringWeb</find>
       <find>ÒÒÒ</find>
+      <find>SpringWeb</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java</dir>
@@ -209,16 +198,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/symplicity/web/model/Snake.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/VoteController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/symplicity/web/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/symplicity/config/FireBaesUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/symplicity/config/FireBaseUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/symplicity/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/symplicity/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/symplicity/web/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/symplicity/base/FireBaseUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/symplicity/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" />
       </list>
     </option>
   </component>
@@ -278,17 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="symplicity-vote" type="58d84e3e:PackageViewProjectNode" />
-              <item name="symplicity-vote" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,6 +353,41 @@
             <path>
               <item name="symplicity-vote" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-security-custom-login-form-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="symplicity" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symplicity-vote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-custom-login-form-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symplicity-vote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-custom-login-form-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symplicity-vote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-custom-login-form-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symplicity-vote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-custom-login-form-annotation" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,8 +421,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="symplicity-vote" type="58d84e3e:PackageViewProjectNode" />
+              <item name="symplicity-vote" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -709,16 +733,16 @@
       <workItem from="1520983510705" duration="255000" />
       <workItem from="1520984120492" duration="3416000" />
       <workItem from="1521213840775" duration="7724000" />
-      <workItem from="1521328451789" duration="14076000" />
+      <workItem from="1521328451789" duration="14150000" />
+      <workItem from="1521429861966" duration="5438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38388000" />
+    <option name="totallyTimeSpent" value="43900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1097" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -730,7 +754,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37793666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37793666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -738,11 +762,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2736954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27635783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38304392" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -750,7 +775,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3835947" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,7 +783,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15811966" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15761448" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -767,21 +791,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3787696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37793666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299285" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27106228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299285" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27635783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3835947" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38304392" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -803,38 +827,71 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/UserController.java</url>
-          <line>32</line>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>FireBaseUtil.class.getResourceAsStream(&quot;/vote-symplicity-firestore-bae53fe5e3f8.json&quot;)</expression-string>
+        <expression-string>votes</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>springWeb</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>springweb</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>vote</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>model</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>FireBaseUtil.class.getResourceAsStream(&quot;vote-symplicity-firestore-bae53fe5e3f8.json&quot;)</expression-string>
+        <expression-string>listValue</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>votes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>users</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>documents</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -847,7 +904,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1520972043665" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520972043665" expanded="false" signature="162:720" ph="..." />
+            <marker date="1520972043665" expanded="false" signature="1114:1125" ph=" { " />
+            <marker date="1520972043665" expanded="false" signature="1146:1152" ph=" }" />
+            <marker date="1520972043665" expanded="false" signature="1215:1226" ph=" { " />
+            <marker date="1520972043665" expanded="false" signature="1246:1252" ph=" }" />
+            <marker date="1520972043665" expanded="true" signature="1374:1430" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="1509:1568" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="1678:1737" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="1831:1902" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="2042:2748" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="2898:4250" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="4332:4558" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="4621:4957" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="5053:5511" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="5576:6653" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="6738:7340" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="7426:8000" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,10 +1016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,10 +1040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,23 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,18 +1139,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/vote-symplicity-firebase-adminsdk-jl5u5-e7d9180d4a.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/vote-symplicity-firebase-adminsdk-jl5u5-e7d9180d4a.json" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1113,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,56 +1162,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1521330662310" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1521330662310" expanded="false" signature="146:468" ph="..." />
+            <marker date="1521330662310" expanded="true" signature="912:984" ph="{...}" />
+            <marker date="1521330662310" expanded="true" signature="1065:1146" ph="{...}" />
+            <marker date="1521330662310" expanded="true" signature="1264:1408" ph="{...}" />
+            <marker date="1521330662310" expanded="true" signature="1507:1596" ph="{...}" />
+            <marker date="1521330662310" expanded="true" signature="1734:2806" ph="{...}" />
+            <marker date="1521330662310" expanded="false" signature="2841:2852" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="2876:2882" ph=" }" />
+            <marker date="1521330662310" expanded="true" signature="2888:2906" ph="/**...*/" />
+            <marker date="1521330662310" expanded="false" signature="2976:2987" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3006:3012" ph=" }" />
+            <marker date="1521330662310" expanded="false" signature="3070:3081" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3120:3126" ph=" }" />
+            <marker date="1521330662310" expanded="false" signature="3176:3187" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3230:3236" ph=" }" />
+            <marker date="1521330662310" expanded="false" signature="3279:3290" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3303:3309" ph=" }" />
+            <marker date="1521330662310" expanded="false" signature="3379:3390" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3402:3408" ph=" }" />
+            <marker date="1521330662310" expanded="false" signature="3467:3478" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3490:3496" ph=" }" />
+            <marker date="1521330662310" expanded="true" signature="3587:4040" ph="{...}" />
+            <marker date="1521330662310" expanded="true" signature="3617:3628" ph="{}" />
+            <marker date="1521330662310" expanded="false" signature="3686:3701" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3751:3761" ph=" }" />
+            <marker date="1521330662310" expanded="false" signature="3803:3818" ph=" { " />
+            <marker date="1521330662310" expanded="false" signature="3870:3880" ph=" }" />
+            <marker date="1521330662310" expanded="true" signature="3957:4034" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/symplicityCoffeeVote/WEB-INF/classes/vote-symplicity-firestore-bae53fe5e3f8.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.3.RELEASE/spring-webmvc-4.2.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="6090">
           <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.3.RELEASE/spring-web-4.2.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/base/FireBaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1520972041805" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520972041805" expanded="false" signature="155:1983" ph="..." />
+            <marker date="1520972041805" expanded="true" signature="4873:4880" ph="{}" />
+            <marker date="1520972041805" expanded="false" signature="4955:4966" ph=" { " />
+            <marker date="1520972041805" expanded="false" signature="4995:5001" ph=" }" />
+            <marker date="1520972041805" expanded="true" signature="5081:5154" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="5234:5307" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="5407:5500" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="5576:5645" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="5737:5822" ph="{...}" />
+            <marker date="1520972041805" expanded="false" signature="5891:5902" ph=" { " />
+            <marker date="1520972041805" expanded="false" signature="5949:5955" ph=" }" />
+            <marker date="1520972041805" expanded="false" signature="6013:6024" ph=" { " />
+            <marker date="1520972041805" expanded="false" signature="6053:6059" ph=" }" />
+            <marker date="1520972041805" expanded="true" signature="6123:6536" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="6605:7216" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="7282:7937" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="8002:8645" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="8712:9807" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="9874:10969" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="11046:12293" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="12372:13129" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="13194:14259" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="14326:14993" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="15041:15173" ph="{...}" />
+            <marker date="1520972041805" expanded="false" signature="15232:15243" ph=" { " />
+            <marker date="1520972041805" expanded="false" signature="15273:15279" ph=" }" />
+            <marker date="1520972041805" expanded="true" signature="15376:15719" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="15824:17191" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="17280:17361" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="17467:19592" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="19699:22690" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="22792:22915" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="23106:24372" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="24455:24781" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="24624:24774" ph="{...}" />
+            <marker date="1520972041805" expanded="false" signature="24663:24682" ph=" { " />
+            <marker date="1520972041805" expanded="false" signature="24750:24764" ph=" }" />
+            <marker date="1520972041805" expanded="true" signature="24885:25687" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="25753:26037" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="26131:26690" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="26801:27379" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="27468:28052" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="28210:29318" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="29438:30728" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="30815:30883" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="31024:31385" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="31553:31699" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="31875:32115" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="32222:33356" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="33426:33622" ph="{...}" />
+            <marker date="1520972041805" expanded="true" signature="33635:34020" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1178,26 +1268,108 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/cloud/google-cloud-firestore/0.33.0-beta/google-cloud-firestore-0.33.0-beta.jar!/com/google/cloud/firestore/DocumentReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/base/FireBaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1997#2003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.3.RELEASE/spring-web-4.2.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <marker date="1520972043665" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520972043665" expanded="false" signature="162:720" ph="..." />
+            <marker date="1520972043665" expanded="false" signature="1114:1125" ph=" { " />
+            <marker date="1520972043665" expanded="false" signature="1146:1152" ph=" }" />
+            <marker date="1520972043665" expanded="false" signature="1215:1226" ph=" { " />
+            <marker date="1520972043665" expanded="false" signature="1246:1252" ph=" }" />
+            <marker date="1520972043665" expanded="true" signature="1374:1430" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="1509:1568" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="1678:1737" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="1831:1902" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="2042:2748" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="2898:4250" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="4332:4558" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="4621:4957" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="5053:5511" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="5576:6653" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="6738:7340" ph="{...}" />
+            <marker date="1520972043665" expanded="true" signature="7426:8000" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/symplicity/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="412">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
