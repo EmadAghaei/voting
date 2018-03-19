@@ -6,7 +6,6 @@ import com.google.cloud.firestore.*;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.cloud.FirestoreClient;
-import com.symplicity.web.controller.VoteController;
 import com.symplicity.web.model.Vote;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,33 +40,36 @@ public class FireBaseUtil {
     }
 
     public void saveVote(String userName, String fruit) {
-        try {
-
-            DocumentReference docRef = db.collection("votes").document(userName);
-            Map<String, Object> data = new HashMap<>();
-            data.put("fruit", fruit);
-            ApiFuture<WriteResult> result = docRef.set(data);
-            System.out.println("Update time : " + result.get().getUpdateTime());
-        } catch (InterruptedException e) {
-            logger.error(e.getMessage());
-        } catch (ExecutionException e) {
-                        logger.error(e.getMessage());
-        }
+        DocumentReference docRef = db.collection("votes").document(userName);
+        Map<String, Object> data = new HashMap<>();
+        data.put("fruit", fruit);
+        ApiFuture<WriteResult> result = docRef.set(data);
+        // System.out.println("Update time : " + result.get().getUpdateTime());
         logger.info("vote is saved to DataBase");
     }
 
-    public List<Vote> getVotes() {
+    public Map<String, Integer> getVotes() {
         List<QueryDocumentSnapshot> documents = null;
-        List<Vote> votes = new ArrayList<Vote>();
+//        List<Vote> votes = new ArrayList<Vote>();
+        Map<String,Integer> fruitCount = new HashMap();
+
         try {
             ApiFuture<QuerySnapshot> future = db.collection("votes").get();
             documents = future.get().getDocuments();
+
             for (QueryDocumentSnapshot document : documents) {
-                Vote vote = new Vote();
-                vote.setFruit(document.get("fruit").toString());
-                vote.setUserName(document.getId());
-                votes.add(vote);
-                System.out.println(document.getId() + " => " + document.toObject(Vote.class));
+//                Vote vote = new Vote();
+                String fruitName = document.get("fruit").toString();
+//                vote.setFruit(fruitName);
+                if(!fruitCount.containsKey(fruitName)){
+                    fruitCount.put(fruitName,  1);
+                }else {
+                    fruitCount.put(fruitName, fruitCount.get(fruitName) + 1);
+                }
+//                vote.setUserName(document.getId());
+//                vote.setFruitCount(fruitCount);
+//                votes.add(vote);
+               // System.out.println(document.getId() + " => " + document.toObject(Vote.class));
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -75,7 +77,9 @@ public class FireBaseUtil {
             e.printStackTrace();
         }
 
-        return votes;
+        return fruitCount;
     }
+
+
 
 }

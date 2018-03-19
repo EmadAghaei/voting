@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class VoteController {
@@ -36,9 +37,9 @@ public class VoteController {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String userName = auth.getName(); //get logged in username
         fireBaseUtil.saveVote(userName, vote.getFruit());
-        List<Vote> voteList = fireBaseUtil.getVotes();
+        Map<String,Integer> fruitCounts = fireBaseUtil.getVotes();
         model.addAttribute("fruit", vote.getFruit());
-        model.addAttribute("votes",voteList);
+        model.addAttribute("votes",fruitCounts);
         return "votes";
     }
 
