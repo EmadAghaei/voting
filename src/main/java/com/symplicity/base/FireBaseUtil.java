@@ -6,7 +6,10 @@ import com.google.cloud.firestore.*;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.cloud.FirestoreClient;
+import com.symplicity.web.controller.VoteController;
 import com.symplicity.web.model.Vote;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -16,7 +19,7 @@ import java.util.concurrent.ExecutionException;
 
 @Component
 public class FireBaseUtil {
-
+    private final Logger logger = LoggerFactory.getLogger(FireBaseUtil.class);
     private static String FIRESTORE_DB_NAME = "vote-symplicity-firestore";
     private Firestore db = null;
 
@@ -42,15 +45,15 @@ public class FireBaseUtil {
 
             DocumentReference docRef = db.collection("votes").document(userName);
             Map<String, Object> data = new HashMap<>();
-//        data.put("userName", userName);
             data.put("fruit", fruit);
             ApiFuture<WriteResult> result = docRef.set(data);
             System.out.println("Update time : " + result.get().getUpdateTime());
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         } catch (ExecutionException e) {
-            e.printStackTrace();
+                        logger.error(e.getMessage());
         }
+        logger.info("vote is saved to DataBase");
     }
 
     public List<Vote> getVotes() {
@@ -58,17 +61,12 @@ public class FireBaseUtil {
         List<Vote> votes = new ArrayList<Vote>();
         try {
             ApiFuture<QuerySnapshot> future = db.collection("votes").get();
-            // future.get() blocks on response
-
             documents = future.get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
-
                 Vote vote = new Vote();
                 vote.setFruit(document.get("fruit").toString());
                 vote.setUserName(document.getId());
                 votes.add(vote);
-//                votes.add(document.toObject(Vote.class));
-
                 System.out.println(document.getId() + " => " + document.toObject(Vote.class));
             }
         } catch (InterruptedException e) {

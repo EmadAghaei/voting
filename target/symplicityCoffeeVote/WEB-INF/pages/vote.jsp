@@ -8,15 +8,10 @@
 
 <c:url value="/logout" var="logoutUrl" />
 <form action="${logoutUrl}" method="post" id="logoutForm">
-
 		<td>Fruit</td>
 		<td>${fruit}</td>
-
-
-	<input type="hidden" name="${_csrf.parameterName}"
-		   value="${_csrf.token}" />
+	<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 </form>
-
 
 <h2>User Information</h2>
 <form:form method = "POST" action = "/addVote">

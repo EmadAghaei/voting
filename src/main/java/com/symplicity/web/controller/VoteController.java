@@ -18,12 +18,13 @@ import java.util.List;
 
 @Controller
 public class VoteController {
-    private final Logger logger = LoggerFactory.getLogger(VoteController.class);
+
    @Autowired
     private FireBaseUtil fireBaseUtil;
 
     @RequestMapping(value = "/vote", method = RequestMethod.GET)
     public ModelAndView vote() {
+
         Vote vote = new Vote();
         vote.setFruit("Apple");
         ModelAndView modelAndView = new ModelAndView("vote", "command", vote);
