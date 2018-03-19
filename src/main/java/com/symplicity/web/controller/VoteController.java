@@ -1,7 +1,7 @@
 package com.symplicity.web.controller;
 
 import com.symplicity.base.FireBaseUtil;
-import com.symplicity.web.model.User;
+import com.symplicity.web.model.Vote;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,33 +14,31 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.Collections;
 import java.util.List;
 
 @Controller
-public class UserController {
-    private final Logger logger = LoggerFactory.getLogger(UserController.class);
+public class VoteController {
+    private final Logger logger = LoggerFactory.getLogger(VoteController.class);
    @Autowired
     private FireBaseUtil fireBaseUtil;
 
-    @RequestMapping(value = "/user", method = RequestMethod.GET)
-    public ModelAndView user() {
-        User user = new User();
-//        user.setFavoriteFrameworks((new String []{"Spring MVC","Struts 2"}));
-        user.setFruit("Apple");
-        ModelAndView modelAndView = new ModelAndView("user", "command", user);
+    @RequestMapping(value = "/vote", method = RequestMethod.GET)
+    public ModelAndView vote() {
+        Vote vote = new Vote();
+        vote.setFruit("Apple");
+        ModelAndView modelAndView = new ModelAndView("vote", "command", vote);
         return modelAndView;
     }
 
-    @RequestMapping(value = "/addUser", method = RequestMethod.POST)
-    public String addUser(@ModelAttribute("SpringWeb")User user, ModelMap model) {
+    @RequestMapping(value = "/addVote", method = RequestMethod.POST)
+    public String addVote(@ModelAttribute("SpringWeb")Vote vote, ModelMap model) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String userName = auth.getName(); //get logged in username
-        fireBaseUtil.saveVote(userName,user.getFruit());
-        List<User> votelist = fireBaseUtil.getVotes();
-        model.addAttribute("fruit", user.getFruit());
-        model.addAttribute("votes",votelist);
-        return "users";
+        fireBaseUtil.saveVote(userName, vote.getFruit());
+        List<Vote> voteList = fireBaseUtil.getVotes();
+        model.addAttribute("fruit", vote.getFruit());
+        model.addAttribute("votes",voteList);
+        return "votes";
     }
 
 }

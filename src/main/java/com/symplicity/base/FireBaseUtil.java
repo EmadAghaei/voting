@@ -6,7 +6,7 @@ import com.google.cloud.firestore.*;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.cloud.FirestoreClient;
-import com.symplicity.web.model.User;
+import com.symplicity.web.model.Vote;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -53,9 +53,9 @@ public class FireBaseUtil {
         }
     }
 
-    public List<User> getVotes() {
+    public List<Vote> getVotes() {
         List<QueryDocumentSnapshot> documents = null;
-        List<User> users = new ArrayList<User>();
+        List<Vote> votes = new ArrayList<Vote>();
         try {
             ApiFuture<QuerySnapshot> future = db.collection("votes").get();
             // future.get() blocks on response
@@ -63,13 +63,13 @@ public class FireBaseUtil {
             documents = future.get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
 
-                User user = new User();
-                user.setFruit(document.get("fruit").toString());
-                user.setUserName(document.getId());
-                users.add(user);
-//                users.add(document.toObject(User.class));
+                Vote vote = new Vote();
+                vote.setFruit(document.get("fruit").toString());
+                vote.setUserName(document.getId());
+                votes.add(vote);
+//                votes.add(document.toObject(Vote.class));
 
-                System.out.println(document.getId() + " => " + document.toObject(User.class));
+                System.out.println(document.getId() + " => " + document.toObject(Vote.class));
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -77,7 +77,7 @@ public class FireBaseUtil {
             e.printStackTrace();
         }
 
-        return users;
+        return votes;
     }
 
 }

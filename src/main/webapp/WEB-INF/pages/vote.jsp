@@ -19,7 +19,7 @@
 
 
 <h2>User Information</h2>
-<form:form method = "POST" action = "/addUser">
+<form:form method = "POST" action = "/addVote">
 	<table>
 		<tr>
 			<td><form:label path = "fruit">Gender</form:label></td>
