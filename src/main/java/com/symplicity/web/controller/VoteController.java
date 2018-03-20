@@ -33,11 +33,12 @@ public class VoteController {
     }
 
     @RequestMapping(value = "/addVote", method = RequestMethod.POST)
-    public String addVote(@ModelAttribute("SpringWeb")Vote vote, ModelMap model) {
+    public String addVote(@ModelAttribute("vote")Vote vote, ModelMap model) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String userName = auth.getName(); //get logged in username
         fireBaseUtil.saveVote(userName, vote.getFruit());
-        Map<String,Integer> fruitCounts = fireBaseUtil.getVotes();
+        Map<String,Integer> fruitCounts = null;
+       fruitCounts = fireBaseUtil.getVotes();
         model.addAttribute("fruit", vote.getFruit());
         model.addAttribute("votes",fruitCounts);
         return "votes";

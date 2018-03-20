@@ -4,37 +4,44 @@
 <head>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap.min.css'>
-</head>
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <body>
+<%--<div class="bs-example">--%>
+<div class="alert alert-warning" style="margin-top: 50px">
+    <div>
+        <a href="#" class="close" data-dismiss="alert"></a>
+        <strong>Thank you!</strong> Your vote is submitted. You have selected ${fruit}
+    </div>
+    <%--</div>--%>
+    <%--<p>${fruit}</p>--%>
 
-<h2>Submitted User Information</h2>
-<table>
+</div>
+<div class="table-responsive col-sm-4" style="margin-left: 50px">
+    <table class="table ">
+        <thead>
+        <tr>
 
-    <tr>
-        <td>Fruit</td>
-        <td>${fruit}</td>
-    </tr>
-    <tr>
+            <th scope="col">Fruit</th>
+            <th scope="col">Number of votes</th>
+        </tr>
+        </thead>
         <c:if test="${not empty votes}">
+            <c:forEach items="${votes}" var="voteMap" varStatus="status">
+                <tr>
 
-            <%--<ul>--%>
-            <%--<c:forEach var="listValue" items="${votes}">--%>
-            <%--<li>${listValue.fruit}</li>--%>
-            <%--<li>${listValue.userName}</li>--%>
-            <%--</c:forEach>--%>
-            <%--</ul>--%>
-        <c:forEach items="${votes}" var="voteMap" varStatus="status">
-    <tr>
-        <td>${voteMap.key}</td>
-        <td>${voteMap.value}</td>
-    </tr>
-    </c:forEach>
-    </c:if>
-    </tr>
-</table>
+                    <td>${voteMap.key}</td>
+                    <td>${voteMap.value}</td>
+                </tr>
+            </c:forEach>
+        </c:if>
+
+    </table>
+</div>
 <input type="button" value="Back" onclick="javascript:history.back()"/>
+
 
 <script type="text/javascript" src="webjars/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
