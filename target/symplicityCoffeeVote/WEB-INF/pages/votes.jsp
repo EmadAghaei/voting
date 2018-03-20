@@ -9,13 +9,31 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <body>
-<%--<div class="bs-example">--%>
+<script>
+    function formSubmit() {
+        document.getElementById("logoutForm").submit();
+    }
+</script>
+
+<c:if test="${pageContext.request.userPrincipal.name != null}">
+    <p>
+        <a href="javascript:formSubmit()" class="btn btn-success" style=" margin-left : 50px; margin-top: 25px">
+            <span class="glyphicon glyphicon-log-out"></span> Log out
+        </a>
+    </p>
+</c:if>
+<c:url value="/logout" var="logoutUrl"/>
+<form action="${logoutUrl}" method="post" id="logoutForm">
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+</form>
+
+
 <div class="alert alert-warning" style="margin-top: 50px">
     <div>
         <a href="#" class="close" data-dismiss="alert"></a>
         <strong>Thank you!</strong> Your vote is submitted. You have selected ${fruit}
     </div>
-    <%--</div>--%>
+    <%--</div>--%dsff>
     <%--<p>${fruit}</p>--%>
 
 </div>
@@ -40,7 +58,7 @@
 
     </table>
 </div>
-<input type="button" value="Back" onclick="javascript:history.back()"/>
+<%--<input type="button" value="Back" onclick="javascript:history.back()"/>--%>
 
 
 <script type="text/javascript" src="webjars/jquery/2.1.1/jquery.min.js"></script>

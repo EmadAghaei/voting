@@ -78,10 +78,6 @@
 </script>
 
 <c:if test="${pageContext.request.userPrincipal.name != null}">
-    <%--<p >--%>
-        <%--Welcome : ${pageContext.request.userPrincipal.name}--%>
-
-    <%--</p>--%>
     <p>
         <a href="javascript:formSubmit()" class="btn btn-success" style=" margin-left : 50px; margin-top: 25px">
             <span class="glyphicon glyphicon-log-out"></span> Log out

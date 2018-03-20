@@ -51,7 +51,7 @@ public class FireBaseUtil {
     public Map<String, Integer> getVotes() {
         List<QueryDocumentSnapshot> documents = null;
 //        List<Vote> votes = new ArrayList<Vote>();
-        Map<String,Integer> fruitCount = new HashMap();
+        Map<String, Integer> fruitCount = new TreeMap<String, Integer>();
 
         try {
             ApiFuture<QuerySnapshot> future = db.collection("votes").get();
@@ -61,25 +61,22 @@ public class FireBaseUtil {
 //                Vote vote = new Vote();
                 String fruitName = document.get("fruit").toString();
 //                vote.setFruit(fruitName);
-                if(!fruitCount.containsKey(fruitName)){
-                    fruitCount.put(fruitName,  1);
-                }else {
+                if (!fruitCount.containsKey(fruitName)) {
+                    fruitCount.put(fruitName, 1);
+                } else {
                     fruitCount.put(fruitName, fruitCount.get(fruitName) + 1);
                 }
-//                vote.setUserName(document.getId());
-//                vote.setFruitCount(fruitCount);
-//                votes.add(vote);
-               // System.out.println(document.getId() + " => " + document.toObject(Vote.class));
+
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
-        return fruitCount;
+        Map<String, Integer> result = new LinkedHashMap<>();
+        fruitCount.entrySet().stream()
+                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+                .forEachOrdered(x -> result.put(x.getKey(), x.getValue()));
+        return result;
     }
-
-
-
 }
