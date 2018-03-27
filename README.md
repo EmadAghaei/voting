@@ -7,8 +7,9 @@ Or
 
 Appliaction also has requirement to be deployed on Heroko. you can also follow these steps after cloning the code in your local:
 
-1- In project folder path in ther terminal execute: $heroku create
-2-Run the Heroku via maven: $mvn clean heroku:deploy-war
+1- In project folder path in ther terminal execute: _$heroku create_
+
+2-Run the Heroku via maven: _$mvn clean heroku:deploy-war_
 
 
 
