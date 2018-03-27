@@ -7,7 +7,7 @@ public class Vote {
 
     private String userName;
     private String fruit;
-    private Map<String,Integer> fruitCount = new HashMap();
+//    private Map<String,Integer> fruitCount = new HashMap();
 
 
 
@@ -27,12 +27,12 @@ public class Vote {
         this.userName = userName;
     }
 
-    public Map<String, Integer> getFruitCount() {
-        return fruitCount;
-    }
-
-    public void setFruitCount(Map<String, Integer> fruitCount) {
-        this.fruitCount = fruitCount;
-    }
+//    public Map<String, Integer> getFruitCount() {
+//        return fruitCount;
+//    }
+//
+//    public void setFruitCount(Map<String, Integer> fruitCount) {
+//        this.fruitCount = fruitCount;
+//    }
 
 }
