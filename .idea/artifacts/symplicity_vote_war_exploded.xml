@@ -73,7 +73,6 @@
           <element id="library" level="project" name="Maven: io.netty:netty-codec-socks:4.1.17.Final" />
           <element id="library" level="project" name="Maven: io.grpc:grpc-stub:1.9.0" />
           <element id="library" level="project" name="Maven: io.grpc:grpc-auth:1.9.0" />
-          <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
           <element id="library" level="project" name="Maven: org.json:json:20160810" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.17.Final" />
@@ -85,6 +84,7 @@
           <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.17.Final" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:2.1.1" />
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:3.2.0" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
