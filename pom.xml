@@ -112,7 +112,17 @@
 			<artifactId>guava</artifactId>
 			<version>19.0</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava-jdk5</artifactId>
+			<version>17.0</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>com.google</artifactId>
+					<groupId>guava</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 	</dependencies>
 
 	<build>
